@@ -13,14 +13,6 @@ if (isset($_GET["delete"])) {
     exit();
 }
 
-//SEARCH
-if (isset($_POST["search"])) {
-    $search = $_POST["search"];
-    $result = $conn->query("SELECT nome FROM ");
-}
-
-
-
 ?>
 
 <!DOCTYPE html>
