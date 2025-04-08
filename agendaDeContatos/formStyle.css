@@ -86,11 +86,6 @@ label {
     border-radius: 40px;
 }
 
-
-.input:not(:placeholder-shown) {
-    border-color: #4CAF50;
-}
-
 .require_info {
     display: flex;
     justify-content: center;
