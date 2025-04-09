@@ -2,7 +2,7 @@
 
 <?php
 //READ
-$result = $conn->query("SELECT * FROM contatos");
+$result = $conn->query("SELECT * FROM contatos ORDER BY nome ASC");
 
 
 //DELETE
