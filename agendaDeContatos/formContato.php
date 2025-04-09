@@ -73,7 +73,7 @@ if (isset($_GET["edit"])) {
                 if ($editar_contato) {
                     echo "Editar contato";
                 } else {
-                    echo "Criar contato";
+                    echo "Adicionar contato";
                 }
                 ?>
             </h1>
