@@ -95,7 +95,7 @@ if (isset($_GET["edit"])) {
 
                 <div class="require_input">
                     <label for=telefone>Telefone*</label>
-                    <input class="input" type="tel" name="telefone" maxlength="15" placeholder="( xx ) xxxx-xxxx" required value="<?= $editar_contato['telefone'] ?? '' ?>">
+                    <input class="input" type="tel" name="telefone" maxlength="15" placeholder="( 68 ) 99999-9999" required value="<?= $editar_contato['telefone'] ?? '' ?>">
                 </div>
             </div>
             <label for=email>Email</label>
