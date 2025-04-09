@@ -35,8 +35,24 @@ a {
     font-size: 28px;
 }
 
+.sub_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
 .total_contacts {
     font-size: 14px;
+    opacity: 0.7;
+}
+
+.apagar_todos {
+    font-size: 14px;
+    color: #df0404;
+}
+
+.apagar_todos:hover {
     opacity: 0.7;
 }
 
