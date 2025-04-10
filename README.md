@@ -35,26 +35,43 @@ SVG (ícones visuais)
 O banco de dados utilizado é MySQL, com uma única tabela chamada contatos. A estrutura da tabela é a seguinte:
 
 CREATE TABLE contatos (
+
   id INT AUTO_INCREMENT PRIMARY KEY,
+  
   nome VARCHAR(100) NOT NULL,
+  
   telefone VARCHAR(15),
+  
   email VARCHAR(254),
+  
   empresa VARCHAR(100),
+  
   observacao VARCHAR(255)
+  
 );
 
 # 📂 Estrutura de Pastas
 
 /agendaDeContatos
+
 │
+
 ├── index.php            # Página principal com a listagem dos contatos
+
 ├── formContato.php      # Formulário para adicionar novo contato
+
 ├── conexao.php          # Arquivo de conexão com o banco de dados
+
 ├── style.css            # Estilos do index
+
 ├── formStyle.css        # Estilos do formContato
+
 └── img                  # Imagens
 
 Realizado em conjunto pelos alunos de Sistemas de Informação - Uninorte:
+
 Flávio Kalyff
+
 Henrique Macario
+
 Rykelme Cahú
